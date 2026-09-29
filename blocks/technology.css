@@ -1,0 +1,32 @@
+.technology {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.technology__text {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #ffffff;
+}
+
+.technology__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.technology__icon i {
+  font-size: 48px;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.technology__icon i:hover {
+  transform: translateY(-10px);
+}
